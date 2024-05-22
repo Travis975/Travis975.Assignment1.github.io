@@ -1,0 +1,51 @@
+h1{
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 8px;
+    width: 400px;
+}
+body{
+  margin: 0;
+  font-family: Roboto;
+}
+.main-block {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#food-table {
+    background-color: burlywood;
+    color: black;
+    width: 760px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.sort-button {
+    background-color: chocolate;
+    border-radius: 2px;
+    color: antiquewhite;
+    padding: 16px;
+    border: none;
+    font-weight: bold;
+    margin: 10px;
+}
+.sort-button:hover {
+    background-color:brown;
+    cursor: pointer;
+
+}
+footer{
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    
+}
